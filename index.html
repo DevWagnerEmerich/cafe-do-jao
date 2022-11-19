@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./Images/header/logo.png">
+    <title>Café do Jão</title>
 </head>
 
 <body>
     <header class="page-top">
         <div class="header-one">
-            <img class="page-logo" src="./Images/header/logo.png" alt="">
+            <a href=><img class="page-logo" src="./Images/header/logo.png" alt=""></a>
             <ul>
-                <li><a>Produtos</a></li>
-                <li><a>Lojas</a></li>
-                <li><a>Nossa história</a></li>
-                <li><a>Contato</a></li>
+                <li><a href="#one">Produtos</a></li>
+                <li><a href="#two">Lojas</a></li>
+                <li><a href="#three">Premiações</a></li>
+                <li><a href="#four">Contato</a></li>
             </ul>
         </div>
         <div class="header-two">
@@ -26,43 +27,64 @@
     </header>
     <main class="page-mid">
         <H1>O dia começa bem com o café do Jão.</H1>
-        <button class="start-button">COMECE AQUI</button>
+        <a href="#one"><button class="start-button">COMECE AQUI</button></a>
     </main>
-    <section class="types-section">
+    <section id="one" class="types-section">
         <h1>Conheça nosso produto.</h1>
         <div class="types">
             <div>
                 <h3>Cápsulas</h3>
-                <img src="./Images/deslogado/capsulas.png" alt="">
-                <button>Saiba mais.</button>
+                <div class="capsule-image">
+                    <p id="capsule">O café em cápsula, também denominado café encapsulado em uma de suas variantes, é
+                        uma das
+                        soluções utilizadas para comercializar o café, chegando-se à venda em uma embalagem (cápsula ou
+                        saca flexível) que se adapta à máquina de café .</p>
+                </div>
+                <button><a href="#capsule">Saiba mais.</a></button>
             </div>
             <div>
                 <h3>Grãos</h3>
-                <img src="./Images/deslogado/graos.png" alt="">
-                <button>Saiba mais.</button>
+                <div class="grains-image">
+                    <p id="grain">O café é uma bebida produzida a partir dos grãos torrados do fruto do cafeeiro. É
+                        servido tradicionalmente quente, mas também pode ser consumido gelado.</p>
+                </div>
+                <button><a href="#grain">Saiba mais.</a></button>
             </div>
             <div>
                 <h3>Moído</h3>
-                <img src="./Images/deslogado/moido 1.png" alt="">
-                <button>Saiba mais.</button>
+                <div class="ground-image">
+                    <p id="ground">O café moído é feito despejando água quente nos grãos de café moídos e depois
+                        deixando fermentar. Existem vários métodos para fazer isso, incluindo o uso de um filtro, um
+                        coador e uma prensa francesa.</p>
+                </div>
+                <button><a href="#ground">Saiba mais.</a></button>
             </div>
             <div>
                 <h3>Sachê</h3>
-                <img src="./Images/deslogado/sache.png" alt="">
-                <button>Saiba mais.</button>
+                <div class="satchel-image">
+                    <p id="sachet">No sachê, o café fica envolto em papel-filtro e tem um tamanho padrão chamado ESE
+                        (easy serving espresso), que funciona em qualquer máquina. Os sachês também podem vir em dose
+                        única (com 7 g) ou dupla (com 14 g).</p>
+                </div>
+                <button><a href="#sachet">Saiba mais.</a></button>
             </div>
         </div>
     </section>
-    <section class="location-section">
+    <section id="two" class="location-section">
         <div>
             <h1>Nossa primeira loja</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex at ea placeat veritatis esse, eos eum fugiat
-                consequuntur pariatur est ullam, earum rerum accusamus dolores aliquid inventore quod voluptates
-                voluptatibus!</p>
+            <p>Nossa primeira loja foi construída no bairro da Liberdade em São Paulo no dia 01/01/2001, venha conhecer!
+            </p>
         </div>
-        <img src="./Images/deslogado/mapa 1.png" alt="">
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=29%20R.%20dos%20Estudantes&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://www.whatismyip-address.com"></a><br>
+            </div>
+        </div>
     </section>
-    <section class="prize-section">
+    <section id="three" class="prize-section">
         <h1>Premiações conquistadas</h1>
         <h3>Algumas premiações quais conquistamos ao longo dos nossos 50 anos de existência.</h3>
         <div class="prize-image">
@@ -71,13 +93,14 @@
             <img src="./Images/deslogado/premio2.png" alt="">
         </div>
     </section>
-    <footer>
+    <footer id="four">
         <h3>Siga-nos nas redes!</h3>
         <div>
-            <img src="./Images/footer/instagram.png" alt="">
-            <img src="./Images/footer/facebook.png" alt="">
-            <img src="./Images/footer/twitter.png" alt="">
-            <img src="./Images/footer/youtube.png" alt="">
+            <a href="https://www.instagram.com" target="_blank"><img src="./Images/footer/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./Images/footer/facebook.png" alt=""></a>
+            <a href="https://twitter.com" target="_blank"><img src="./Images/footer/twitter.png" alt=""></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="./Images/footer/youtube.png" alt=""></a>
+            <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><img src="./Images/footer/whatsapp.png"></a>
         </div>
     </footer>
 </body>
